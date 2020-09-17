@@ -1,0 +1,7 @@
+land=float(input("Please enter an anount of land in square feet, and I will convert it to acres. "))
+
+one_acre = 43560
+acres = land / one_acre
+
+print(f'That is equivalent to approximately {acres:.2f} acre(s).')
+#the part in the acres variable indicates how many decimal places you want. ex. 2f for 2, 3f for 3, etc.
